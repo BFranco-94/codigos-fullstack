@@ -1,6 +1,7 @@
 
 
 
+$("#nameFormulary").submit(function(e){
 
 		let userNStudent = document.getElementById('userNameStudent').value;
 		let myEmail=document.getElementById('emailStudent').value;
@@ -19,4 +20,5 @@
 			console.log(response);  //show answer by console
 		});
 		return false;
+});
 	       /*follow me for more code examples :v */
